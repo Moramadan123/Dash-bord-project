@@ -1,0 +1,206 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --gray-color: #888;
+}
+
+/* start Box */
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.d-block {
+    display: block;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.align-centre {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+.border-eee{
+    border: 1px solid #eee;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.bg-red{
+    background-color: red;
+}
+/* End Box */
+/* start padding + margin */
+.p-10 {
+    padding: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+.mb-0 {
+    margin-bottom: 0px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.bb-s{
+    border-bottom: 1px solid #eee;
+}
+.rad-half{
+    border-radius: 50%;
+}
+/* End padding + margin */
+/* start color */
+.bg-white {
+    background-color: white;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-white {
+    color: white;
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+
+/* End color */
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+
+/* start font */
+.txt-c {
+    text-align: center;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+.c-gray {
+    color: gray;
+}
+.b-none{
+    border: none;
+}
+.w-100{
+width: 100px;
+}
+.h-100{
+    height: 100px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+/* End font */
+/* start Border */
+.rad-6 {
+    border-radius: 6px;
+
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+/* End Border */
+@media (max-width:767px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .block-mobile {
+        display: block;
+    }
+}
+
+/* start component */
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn-shape{
+padding: 4px 10px ;
+border-radius: 6px;
+
+}
+.crnter-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End component */
